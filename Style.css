@@ -18,7 +18,7 @@ nav, main, footer{
 }
 nav{
     width: 100%;
-    height:450px;
+    height: 150vw;
     background-image: url('./images/mobile/image-header.jpg');
     background-size: cover;
 
@@ -78,7 +78,7 @@ nav div.menu{
     padding-bottom: 35px;
     row-gap: 35px;
 
-    width: 270px;
+    width: 85vw;
     top: 100px;
     right: 25px;
 
@@ -87,8 +87,27 @@ nav div.menu{
 nav div.menu svg{
     position: absolute;
     top:-30px;
-    left: 0px;
+    left: calc(85vw - 40px); 
 }
+nav div.menu a{
+    color: #73717c;
+
+    display: block;
+    width: 130px;
+    text-align: center;
+    
+    padding-top: 12px;
+    height: 45px;
+
+    border-radius: 20px;
+}
+nav div.menu a:hover{
+    background-color: #fbd601;
+    text-transform: uppercase;
+
+    font-family: 'Fraunces', sans-serif;
+}
+
 main{
     background-color: #fffbf8;
     padding-bottom: 100px;    
@@ -100,7 +119,7 @@ section.why{
 }
 section.why div.why-item{
     width: 320px;
-    height: 350px;
+    height: 267px;
 
     display: flex;
     flex-direction: column;
@@ -112,6 +131,7 @@ section.why div.why-item{
     padding-right: 10px;
     padding-top: 20px;
     padding-bottom: 20px;
+
 }
 section.why div.why-item h1{
     text-align: center;
@@ -119,7 +139,7 @@ section.why div.why-item h1{
 }
 section.why div.why-item p{
     text-align: center;
-    line-height: 1.6;
+    line-height: 2;
     color: #88868f;
 }
 section.why div.why-item a.learn-more{
@@ -138,6 +158,8 @@ section.why div.why-item .line{
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    margin-top: 50px;
 }
 section.why div.why-item .line.one{
     background-color: #fff4ba;
@@ -145,17 +167,29 @@ section.why div.why-item .line.one{
 section.why div.why-item .line.two{
     background-color: #ffdad3;
 }
+section.why div.why-item:nth-child(2), section.why div.why-item:nth-child(4){
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
 section.why div.egg.why-item{
-    width: 320px;
-    height: 267px;
-    background-image: url('./images/mobile/image-transform.jpg');
-    background-size: cover;
+    width: 100vw;
+    height: 110vw;
+
+    padding: 0px 0px;
+}
+section.why div.egg.why-item img{
+    width: 100vw;
+    height: 110vw;
 }
 section.why div.glass.why-item{
-    width: 320px;
-    height: 267px;
-    background-image: url('./images/mobile/image-stand-out.jpg');
-    background-size: cover;
+    width: 100vw;
+    height: 110vw;
+
+    padding: 0px 0px;
+}
+section.why div.glass.why-item img{
+    width: 100vw;
+    height: 110vw;
 }
 section.service{
     display: flex;
@@ -168,7 +202,7 @@ section.service div.service-item{
 
     align-items: center;
 
-    height: 500px;
+    height: 160vw;
     justify-content: flex-end;
     padding-bottom: 50px;
 
@@ -269,8 +303,8 @@ footer div.creative-images{
     justify-items: center;
 }
 footer div.creative-images .creative-image-item{
-    width: 160px;
-    height: 160px;
+    width: 50vw;
+    height: 50vw;
 }
 footer div.creative-images .creative-image-item img{
     width: 100%;
