@@ -32,7 +32,7 @@ nav{
 }
 nav h1{
     text-transform: uppercase;
-    font-size: 36px;
+    font-size: 32px;
 
     text-align: center;
     color: white;
@@ -135,7 +135,9 @@ section.why div.why-item{
 }
 section.why div.why-item h1{
     text-align: center;
-    color:#252f41
+    color:#252f41;
+
+    margin-bottom: 25px;
 }
 section.why div.why-item p{
     text-align: center;
@@ -212,6 +214,7 @@ section.service div.service-item{
 section.service div.service-item p{
     text-align: center;
     margin-top: 25px;
+    line-height: 2;
 }
 section.service div.service-item h1{
     text-transform: capitalize;
@@ -235,12 +238,11 @@ section.service div.photography h1{
 }
 section.service div.photography p{
     color: #0c5a7d;
-
 }
 section.testimonials{
     display: flex;
     flex-direction: column;
-    row-gap: 50px;
+    row-gap: 90px;
 }
 section.testimonials .testimonials-item{
     align-self: center;
@@ -269,6 +271,8 @@ section.testimonials div.testimonials-item p{
     color: #6b6a6b;
     margin-top: 30px;
     margin-bottom: 30px;
+
+    line-height: 2;
 }
 section.testimonials div.testimonials-item h2{
     margin-bottom: 10px;
