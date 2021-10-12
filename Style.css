@@ -519,11 +519,11 @@ footer div.footer-content div.footer-content-item:nth-child(3) img:hover{
         background-size: 50vw 41.5vw;  
     }  
     section.service div h1{
-        font-size: 4vw;
+        font-size: 42px;
         text-align: center;
     }
     section.service div p{
-        font-size: 1.5vw;
+        font-size: 16px;
     } 
     section.testimonials{
         display: grid;
